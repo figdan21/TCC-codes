@@ -1,10 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define MAX 100
-#define INF 1000000
-#define MID 50
 #define source 99
 #define sink 98
+
 vector<int> adj[MAX];
 pair<int, int> flow[MAX][MAX];
 vector<int> path;
